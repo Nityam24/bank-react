@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.account {
+  display: "flex";
+  flex-direction: column;
+  justify-content: "center";
+  align-items: "center";
+  height: "50vh";
+  padding-top: 5rem;
+  width: 20%;
+}
+
+.accountinput {
+  display: block;
+  width: 100%;
+  margin-block: 15px;
+  padding: 10px;
+  border: 2px solid #3f3d3d;
+  border-radius: 7px;
+}
+
+.account h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.accountbutton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #3f3d3d;
+  border-radius: 7px;
+  background-color: #3f3d3d;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
